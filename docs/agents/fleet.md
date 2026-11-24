@@ -52,15 +52,15 @@ Source: jparker2006, 2026-11-24: first-fleet defaults for this throwaway, given 
 
 ## Reviewer for Gemini-built
 
-Not in the 0.1.0 template (it maps only Claude-built and GPT-built). Gemini-built pull requests are reviewed by Codex.
+Not in the 0.1.0 template (it maps only Claude-built and GPT-built), so set by hand. Gemini-built pull requests are reviewed by Claude Code.
 
 | Setting | Value | `room-cli thread spawn` flag |
 | --- | --- | --- |
-| Harness | Codex | `--provider codex` |
-| Model | Sol 6.1 | `--model gpt-6.1-sol` |
+| Harness | Claude Code | `--provider claude-code` |
+| Model | Opus 5.5 | `--model claude-opus-5-5` |
 | Effort | Medium | `--reasoning-level medium` |
 
-Source: jparker2006, 2026-11-24: first-fleet defaults for this throwaway, given in the real-user e2e brief and the owner's 19:xxZ Claude stop (private record: jparker2006/ClosedWiz branch room/real-user-e2e-fresh-repo-to-first-merged-jrs9, private/evidence/real-user-e2e-2026-11-24/).
+Source: jparker2006, 2026-11-24: reviews of Neon-built work use Opus 5.5 Medium; Codex/Sol is out (private record: jparker2006/ClosedWiz branch room/real-user-e2e-fresh-repo-to-first-merged-jrs9, private/evidence/real-user-e2e-2026-11-24/).
 
 ## Labels
 
